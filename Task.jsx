@@ -11,7 +11,8 @@ const TaskListManager = () => {
         title: "",
         description: "",
         status: "To Do",
-    });
+
+            });
 
     // Fetch tasks from API
     useEffect(() => {
@@ -104,7 +105,7 @@ const TaskListManager = () => {
 
             <div className="mb-4 flex items-center gap-4">
                 <button
-                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="btn btn-success"
                     onClick={() => setIsModalOpen(true)}
                 >
                     Add Task
@@ -157,7 +158,7 @@ const TaskListManager = () => {
                     </div>
                     <div className="flex justify-between">
                         <button
-                            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                            className="btn btn-warning"
                             onClick={addTask}
                         >
                             Add Task

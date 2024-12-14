@@ -1,5 +1,5 @@
 
-import './App.css';
+// import './App.css';
 // import Home from './Home';
 // import data from'./data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
